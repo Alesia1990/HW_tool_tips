@@ -1,0 +1,14 @@
+
+.tool_tip{
+    margin-top: 30px;
+}
+.div_tooltip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(232, 238, 110);
+    color: rgb(220, 87, 10);
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 0.8;
+}
