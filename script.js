@@ -8,7 +8,7 @@ const toolTip = function () {
         parentItem.removeAttribute("title");
 
         let tooltip = document.createElement("div");
-        tooltip.innerHTML = valueAttribute;// почему, если в 6 строке вместо this будет event.target, то значение null?
+        tooltip.innerHTML = valueAttribute;
         tooltip.classList.add("div_tooltip");
         document.body.append(tooltip);
         
